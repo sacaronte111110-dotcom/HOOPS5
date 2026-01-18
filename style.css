@@ -1,7 +1,19 @@
 body {
-  background-color: #111;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: white;
   text-align: center;
-  font-family: Arial, sans-serif;
-  padding: 40px;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
 }
